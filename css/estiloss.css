@@ -1,0 +1,20 @@
+
+#zoom{
+    transition-duration: 0.9s;
+}
+
+
+#zoom:hover{
+    transform: scale(0.9);
+    box-shadow:rgba(0, 0, 0, 2);
+    background-color:#c6d5ea"
+    
+}
+
+div li a img :hover {
+  background-image: url("../img/userblanco.png") ; width:"19px";  height:"19px";
+}
+
+
+
+

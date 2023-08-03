@@ -1,0 +1,59 @@
+#altofondo{
+    background-image: url("../img/altaimagen3.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+      
+  
+   
+}
+
+#fondoblanco{
+
+    background-image: url("../img/fondoblanco.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+  
+}
+
+#celularfondo{
+
+    background-image: url("../img/celulares/celularfondo.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+  
+}
+
+
+#notebookfondo{
+
+    background-image: url("../img/notebooks/notebookfondo.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+  
+}
+
+#televisorfondo{
+
+    background-image: url("../img/televisores/televisorfondo.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+  
+}
+
+#impresorafondo{
+
+    background-image: url("../img/impresoras/impresorafondo.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+  
+}
+
+#auricularfondo{
+
+    background-image: url("../img/auriculares/auricularfondo.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+  
+}
+
+

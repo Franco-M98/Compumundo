@@ -1,0 +1,28 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 93%;
+    transform: translate(-65%, -100%);
+}
+
+
+.circulo{
+    width: 26px;
+    height: 19px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background:#008f39;
+}

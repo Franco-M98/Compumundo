@@ -1,0 +1,220 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"Times New Roman", Times, serif;
+	
+	}
+
+
+#contexto{
+	background-color:#999999; linear-gradient(#FFDA63, #FFB940);
+	width:100%;
+	max-width:1335px;
+	height:2000px;
+	color:brown;
+	border-radius:10px;	
+	margin-bottom:0;
+	
+    
+}
+
+h2{
+	font-size:1px;
+	float:left;
+	color:#FFF;
+		
+}
+
+
+#cabecera{
+	background-color:#999;
+	width:100%;
+	max-width:1335px;
+	height:30px;
+		
+}
+
+
+ul.recorrido{
+	list-style:none;
+	}
+	
+	
+.recorrido{
+	float:right;
+
+}
+
+
+.recorrido li a {
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	padding-top: 7px;
+	padding-right: 16px;
+	padding-bottom: 7px;
+	padding-left: 16px;
+}
+
+.recorrido li a:hover{
+	text-decoration: underline;
+	
+}
+
+.recorrido > li{
+	float:left;
+}
+	
+
+#eslogan{
+	background-color: #000;
+	width: 100%;
+	max-width: 1335px;
+	height: 50px;
+}
+
+img[src="../Imagenes/Logo-Compumundo1.png"]{
+	padding-bottom:30px;
+	
+	
+}
+
+
+
+
+#menu{
+	background-color:#000; #C33;rgb(13,178,197);
+	width: 1335px;
+	height: 50px;
+	
+}
+
+
+
+#menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	max-width:1000px;
+	width:100%;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+#menu ul{
+	list-style:none;
+	padding-left:330px;
+	
+	
+
+}
+
+
+.nav li a {
+	font-size: 20px;
+	padding: 16px;	
+	color:#FFF;
+	text-decoration:none;	
+	display:block;
+	float:right;
+}
+
+.nav li a:hover{
+	text-decoration: underline;
+	color:#093;
+}
+
+.nav > li{
+	float:left;
+}
+	
+.nav li ul{
+	display:none;
+	background-color:rgb(13,178,197);
+	
+}
+
+	
+.nav li:hover > ul{
+	display:block;
+	width:200px;
+	
+}
+
+
+
+/*.nav li ul li ul{
+	right:-140px;
+	top:opx;
+}*/
+
+.nav li ul img{
+	width: 50px;
+	height: 50px;
+	float: left;
+		
+}
+
+
+
+.slider {
+	width:1335px;
+	height:300px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 1335px;
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 1335px;
+	height:300px;
+	list-style: none;
+}
+
+.slider img {
+	width: 1335px;
+	height:300px;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+
+#contenidos1{
+	width:1335px;
+	height:600px;
+	background-color:#FFF;
+	
+}
+
+
+/*
+<ul class="recorrido">
+	<li>
+  		<li><img src= <?php echo"'$ruta'" ?> class="foto" width="40" heigth="40" ><a> Ubicación</a>
+       		 <ul>
+        		<li>Perfil</li>
+            	<li><a href="RoyalCanin_Contacto.html">Soporte</a></li>
+            	<li><a href="RoyalCanin_Contacto.html">Salir</a></li>
+        	</ul>
+    	</li>
+	</li>
+</ul>
+*/

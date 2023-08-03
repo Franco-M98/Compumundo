@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	font-family:sans-serif;
+	box-sizing:border-box;
+	
+}
+
+body{
+	background-image:url(Imagenes/fondo_opaco.jpg);
+	background-size:100% 100%;
+	background-position:center;
+	/*display:flex;*/
+	min-height: 100vh;
+	
+}
+
+/*img{
+	display:block;
+	padding:5px;	
+	margin:0px 105px;
+	background-color:linear-gradient(#FFDA63, #FFB940);
+}*/
+
+img{
+	margin: auto;
+	padding: 5px;
+	position: relative;
+	width: 50%;
+	max-width: 400px;
+	left: 475px;
+	top: 50px;
+	right: 20px;
+	bottom: 80px;	
+	
+	
+}
+	
+	
+	
+form {
+	margin: auto;
+	width: 50%;
+	max-width: 400px;
+	background-color: #FFF;
+	padding: 5px;
+	opacity: 0.8;
+	position: relative;
+	top: 50px;
+	height:450px;
+	border: 1.5px outset #CCC;
+		
+}
+
+
+#sabe{
+	margin: auto;
+	width: 50%;
+	max-width: 400px;
+	background-color: #FFF;
+	padding: 25px;
+	opacity: 0.8;
+	position: relative;
+	top:57px;
+	border: 1.5px outset #CCC;	
+}
+
+h1{
+	padding: 10px 140px;
+	color: rgba(0,0,0,0.5);
+	margin-top:30px;
+	font-family:Garalda;
+	
+}
+
+
+input{
+	width:75%;
+	height:10%;
+	font-size: 17px;
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 10px;
+	margin-right: 55px;
+	margin-bottom: 5px;
+	margin-left: 55px;
+	float: none;
+}
+
+input[type="text"]{
+	margin-top: 30px;
+	
+		
+}
+
+input[type="submit"]{
+	margin-top: 40px;
+	
+}
+
+input[type="text"]:hover{
+	border-bottom-width: 5px;
+	border-bottom-style:ridge;
+	border-bottom-color: #FFCC66;	
+}
+
+input[type="password"]:hover{
+	border-bottom-width: 5px;
+	border-bottom-style:ridge;
+	border-bottom-color: #FFCC66;
+	
+}
+
+input[type="submit"] {
+	background: #099;linear-gradient(#FFDA63, #FFB940)
+	border:0;
+	color: white;
+	opacity: 0.8;
+	cursor: pointer;
+	margin-bottom: 0;
+	
+}
+
+input[type="submit"]:hover{
+	opacity:0.6;
+}
+
+
+a[href="RegistrodeUsuario.html"]{
+
+	text-decoration: none;
+	position: relative;
+	color:#00F;
+		
+} 
+ 
+.bottom{
+	width:75%;
+	height:10%;
+	font-size: 17px;
+	border-radius: 5px;
+	padding: 15px;
+	margin-top: 30px;
+	margin-right: 55px;
+	margin-bottom: 5px;
+	margin-left: 55px;
+	
+	background:#099;linear-gradient(#FFDA63, #FFB940)
+	border:0;
+	color: white;
+	cursor: pointer;
+	margin-bottom: 0;
+	background-color: #3897f0;
+    border: 1px solid #3897f0;
+    
+	}
+
+a[href="https://www.facebook.com/login.php"]{
+	text-decoration: none;
+	position: relative;
+	color:#FFF;
+	}

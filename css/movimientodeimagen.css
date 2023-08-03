@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.portafolio-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.portafolio-item{
+    position: relative;
+    overflow: hidden;
+}
+
+.portafolio-text{
+    position: absolute;
+    transform: translateY(100%);
+    transition: all 9.5 ease-out;
+   
+}
+
+.portafolio-text p{
+    text-align: justify;
+
+}
+
+.portafolio-item:hover .portafolio-text{
+    transform: translateY(0%);
+    position: relative;
+}
+
+.portafolio-item:hover .portafolio-img{
+    transform: scale(1.15);
+    
+}
+
+
+
+
+

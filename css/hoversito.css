@@ -1,0 +1,31 @@
+
+#amarillo:hover{
+    text-decoration: none;
+    border-bottom: 1.5px solid #ffc107;    
+}
+
+#rojo:hover{
+    text-decoration: none;
+    border-bottom: 1.5px solid #dc3545;    
+}
+
+#verde:hover{
+    text-decoration: none;
+    border-bottom: 1.5px solid #28a745;    
+}
+
+#azul:hover{
+    text-decoration: none;
+    border-bottom: 1.5px solid #007bff;    
+}
+
+#celeste:hover{
+    text-decoration: none;
+    border-bottom: 1.5px solid #17a2b8;    
+}
+
+#negro:hover{
+    text-decoration: ;
+    border-bottom: 1.5px solid #343a40;  #0D9B7E    
+}
+

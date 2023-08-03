@@ -1,0 +1,19 @@
+body{
+    background-image: url("../img/login.jpg");
+        background-size:100% 100%;
+        background-attachment:fixed;
+    
+}
+
+.modal-content{
+    opacity:;
+    background: #3668ad;
+    background-image: url("../img/logn.jpg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+    border:px solid #0000FF;
+    
+}
+
+
+
